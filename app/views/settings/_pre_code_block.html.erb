@@ -1,0 +1,6 @@
+<% PreCodeBlock::LANGUAGES.each do |lang| %>
+<p>
+	<label for="settings_pre_code_block_<%= lang.to_s %>">Add «<%= lang.to_s.titleize %>» in the toolbar</label>
+	<input type="checkbox" id="settings_pre_code_block_<%= lang.to_s %>" <%= settings['pre_code_block_' + lang.to_s] ? 'checked' : ''%> name="settings[pre_code_block_<%= lang.to_s %>]" >
+</p>
+<% end %>

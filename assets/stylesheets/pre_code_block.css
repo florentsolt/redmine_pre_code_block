@@ -1,0 +1,115 @@
+.jstElements button {
+	vertical-align: top;
+}
+
+.jstElements button.jstb_pre_c,
+.jstElements button.jstb_pre_cpp,
+.jstElements button.jstb_pre_clojure,
+.jstElements button.jstb_pre_css,
+.jstElements button.jstb_pre_delphi,
+.jstElements button.jstb_pre_diff,
+.jstElements button.jstb_pre_erb,
+.jstElements button.jstb_pre_groovy,
+.jstElements button.jstb_pre_haml,
+.jstElements button.jstb_pre_html,
+.jstElements button.jstb_pre_java,
+.jstElements button.jstb_pre_javascript,
+.jstElements button.jstb_pre_json,
+.jstElements button.jstb_pre_pascal,
+.jstElements button.jstb_pre_php,
+.jstElements button.jstb_pre_python,
+.jstElements button.jstb_pre_ruby,
+.jstElements button.jstb_pre_scheme,
+.jstElements button.jstb_pre_sql,
+.jstElements button.jstb_pre_xml,
+.jstElements button.jstb_pre_yaml {
+	width: auto;
+	min-width: 3em;
+	font-size: 9px;
+	padding: 2px;
+}
+
+.jstElements button.jstb_pre_c:before {
+	content: ".c";
+}
+
+.jstElements button.jstb_pre_cpp:before {
+	content: ".cpp";
+}
+
+.jstElements button.jstb_pre_clojure:before {
+	content: ".clj";
+}
+
+.jstElements button.jstb_pre_css:before {
+	content: ".css";
+}
+
+.jstElements button.jstb_pre_delphi:before {
+	content: ".dpl";
+}
+
+.jstElements button.jstb_pre_diff:before {
+	content: ".diff";
+}
+
+.jstElements button.jstb_pre_erb:before {
+	content: ".erb";
+}
+
+.jstElements button.jstb_pre_groovy:before {
+	content: ".groovy";
+}
+
+.jstElements button.jstb_pre_haml:before {
+	content: ".haml";
+}
+
+.jstElements button.jstb_pre_html:before {
+	content: ".html";
+}
+
+.jstElements button.jstb_pre_java:before {
+	content: ".java";
+}
+
+.jstElements button.jstb_pre_javascript:before {
+	content: ".js";
+}
+
+.jstElements button.jstb_pre_json:before {
+	content: ".json";
+}
+
+.jstElements button.jstb_pre_pascal:before {
+	content: ".pas";
+}
+
+.jstElements button.jstb_pre_php:before {
+	content: ".php";
+}
+
+.jstElements button.jstb_pre_python:before {
+	content: ".py";
+}
+
+.jstElements button.jstb_pre_ruby:before {
+	content: ".rb";
+}
+
+.jstElements button.jstb_pre_scheme:before {
+	content: ".scm";
+}
+
+.jstElements button.jstb_pre_sql:before {
+	content: ".sql";
+}
+
+.jstElements button.jstb_pre_xml:before {
+	content: ".xml";
+}
+
+.jstElements button.jstb_pre_yaml:before {
+	content: ".yml";
+}
+
