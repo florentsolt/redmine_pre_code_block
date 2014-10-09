@@ -9,9 +9,9 @@ Redmine::Plugin.register :redmine_pre_code_block do
   	'pre_code_block_html' => true,
   	'pre_code_block_css' => true,
   	'pre_code_block_ruby' => true
-  	'pre_code_block_erb' => true
-  	'pre_code_block_sql' => true
-  }, :partial => 'settings/pre_code_block'
+  	'pre_code_block_erb' => true,
+  	'pre_code_block_sql' => true,
+  	}, :partial => 'settings/pre_code_block'
 end
 
 module PreCodeBlock

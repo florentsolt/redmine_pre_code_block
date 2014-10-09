@@ -21,7 +21,9 @@ for(var i = 0; i < pre_code_block.length; i++) {
 	jsToolBar.prototype.elements["pre_" + name] = {
 	  type: 'button',
 	  title: 'Code block in ' + name,
-	  fn: {wiki: function() { this.encloseLineSelection('<pre><code class="' + name + '">\n', '\n</code></pre>') }}
+	  fn: {
+	  	wiki: new Function("this.encloseLineSelection('<pre><code class=\""+name+"\">\\n', '\\n</code></pre>');"),
+	  }
 	}
 }
 
